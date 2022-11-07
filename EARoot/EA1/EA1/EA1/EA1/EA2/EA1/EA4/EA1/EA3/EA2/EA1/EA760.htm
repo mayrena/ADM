@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sub-proceso "1. Seleccionar modelos de referencia, puntos de vista y herramientas"</title>
+<link href="../../../../../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Sub-proceso "1. Seleccionar modelos de referencia, puntos de vista y herramientas" </h1>
+			<!-- <img class="header_image" src="../../../../../../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../../../../../../../index.htm">Adaptacion BMM</a> / <a href="../../../../../../../../../../EA1.htm">BMM</a> / <a href="../../../../../../../../../EA5.htm">BMM adaptación</a> / <a href="../../../../../../../../EA7.htm">Modelos del método BMM</a> / <a href="../../../../../../../EA9.htm">Modelo de Procesos BMM</a> / <a href="../../../../../../EA75.htm">Implementación BMM</a> / <a href="../../../../../EA77.htm">Modelado de elementos del negocio</a> / <a href="../../../../EA364.htm">Modelado de Procesos del Negocio</a> / <a href="../../../EA368.htm">Diagrama de Actividades</a> / <a href="../../EA555.htm">Fase C: Arquitectura de Sistema de Información</a> / <a href="../EA708.htm">Fase C: Arquitecturas de Sistemas de Información - Arquitectura de Datos</a> / <a href="EA762.htm">Sub-proceso "1. Seleccionar modelos de referencia, puntos de vista y herramientas"</a> / <a href="EA760.htm">Sub-proceso "1. Seleccionar modelos de referencia, puntos de vista y herramientas"</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../../../../../../../images/4.png" alt="Package"/> <a href="./EA1/EA793.htm">Sub-proceso "Determinar el proceso general de modelado"</a></li>
+<li><img src="../../../../../../../../../../../../images/189.png" alt="Diagram"/> <a href="EA760.htm">Sub-proceso "1. Seleccionar modelos de referencia, puntos de vista y herramientas"</a></li>
+<li><img src="../../../../../../../../../../../../images/25.png" alt="Object"/> <a href="EA766.htm">:Catálogos, Matrices, Diagramas y/o Técnicas</a></li>
+<li><img src="../../../../../../../../../../../../images/21.png" alt="Activity"/> <a href="EA767.htm">1.1 Determinar el proceso general de modelado</a></li>
+<li><img src="../../../../../../../../../../../../images/21.png" alt="Activity"/> <a href="EA768.htm">1.2  Identificar los catálogos necesarios de bloques de creación de datos</a></li>
+<li><img src="../../../../../../../../../../../../images/21.png" alt="Activity"/> <a href="EA769.htm">1.3 Identificar las matrices requeridas</a></li>
+<li><img src="../../../../../../../../../../../../images/21.png" alt="Activity"/> <a href="EA770.htm">1.4 Identificar los diagramas requeridos</a></li>
+<li><img src="../../../../../../../../../../../../images/21.png" alt="Activity"/> <a href="EA771.htm">1.5 Identificar los tipos de requisitos que deben recopilarse</a></li>
+<li><img src="../../../../../../../../../../../../images/24.png" alt="Event"/> <a href="EA775.htm">fin</a></li>
+<li><img src="../../../../../../../../../../../../images/24.png" alt="Event"/> <a href="EA776.htm">inicio</a></li>
+<li><img src="../../../../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA763.htm">:Proyecto de Documento de definición de arquitectura</a></li>
+<li><img src="../../../../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA764.htm">:Proyecto de Documento de definición de arquitectura</a></li>
+<li><img src="../../../../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA765.htm">:Proyecto de Documento de definición de arquitectura</a></li>
+<li><img src="../../../../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA772.htm">Catálogos</a></li>
+<li><img src="../../../../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA773.htm">Diagramas</a></li>
+<li><img src="../../../../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA774.htm">Especificación de requisitos de arquitectura</a></li>
+<li><img src="../../../../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA777.htm">Matrices</a></li>
+<li><img src="../../../../../../../../../../../../images/82.png" alt="Artifact"/> <a href="EA789.htm">Proyecto de Documento de definición de arquitectura</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class=diagram_image> 
+<img src="EA761.png" usemap="#EA761" border="0" />
+
+<MAP NAME="EA761">
+<area shape="rect" coords="891,19,952,81" href="../../../../../EA3/EA254.htm" target="_self">
+<area shape="rect" coords="219,231,319,286" href="EA766.htm" target="_self">
+<area shape="rect" coords="629,285,722,348" href="EA765.htm" target="_self">
+<area shape="rect" coords="764,360,849,421" href="EA774.htm" target="_self">
+<area shape="rect" coords="494,268,587,331" href="EA764.htm" target="_self">
+<area shape="rect" coords="761,322,834,353" href="EA773.htm" target="_self">
+<area shape="rect" coords="643,229,709,258" href="EA777.htm" target="_self">
+<area shape="rect" coords="366,220,459,283" href="EA763.htm" target="_self">
+<area shape="rect" coords="231,306,307,343" href="./EA1/EA805.htm" target="_self">
+<area shape="rect" coords="500,220,567,252" href="EA772.htm" target="_self">
+<area shape="rect" coords="64,220,158,284" href="EA789.htm" target="_self">
+<area shape="rect" coords="940,330,1030,402" href="../../../../EA2/EA3/EA2/EA1209.htm" target="_self">
+<area shape="rect" coords="407,344,550,394" href="../../../../../EA3/EA332.htm" target="_self">
+<area shape="rect" coords="146,18,262,82" href="../../../../../EA3/EA328.htm" target="_self">
+<area shape="rect" coords="931,229,1014,289" href="../../../../EA2/EA3/EA2/EA1210.htm" target="_self">
+<area shape="rect" coords="368,19,443,81" href="../../../../../EA3/EA289.htm" target="_self">
+<area shape="rect" coords="586,18,655,80" href="../../../../../EA3/EA276.htm" target="_self">
+<area shape="rect" coords="860,127,952,196" href="EA771.htm" target="_self">
+<area shape="rect" coords="704,128,780,197" href="EA770.htm" target="_self">
+<area shape="rect" coords="579,128,662,197" href="EA769.htm" target="_self">
+<area shape="rect" coords="462,19,529,81" href="../../../../../EA3/EA308.htm" target="_self">
+<area shape="rect" coords="811,229,907,289" href="../../../../../EA3/EA282.htm" target="_self">
+<area shape="rect" coords="80,18,140,82" href="../../../../../EA3/EA331.htm" target="_self">
+<area shape="rect" coords="10,18,73,81" href="../../../../../EA3/EA304.htm" target="_self">
+<area shape="rect" coords="269,19,360,81" href="../../../../../EA3/EA279.htm" target="_self">
+<area shape="rect" coords="422,128,544,197" href="EA768.htm" target="_self">
+<area shape="rect" coords="147,127,257,196" href="./EA1/EA791.htm" target="_self">
+<area shape="rect" coords="978,147,1008,177" href="EA775.htm" target="_self">
+<area shape="rect" coords="46,147,76,177" href="EA776.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Sub-proceso "1. Seleccionar modelos de referencia, puntos de vista y herramientas" : BPMN 1.1 diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">01/11/2022 17:09:43</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">06/11/2022 19:26:26</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Wanda Mayrena</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{BBC238D8-9712-4528-B4E0-5961A4D4ECA4}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
